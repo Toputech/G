@@ -1,7 +1,7 @@
 const fs = require('fs-extra');
 const { Sequelize } = require('sequelize');
 if (fs.existsSync('set.env'))
-    require('dotenv').config({ path: __dirname + '/set.env' });
+    require('dotenv').config({ path: __dirname + '/config.env' });
 const path = require("path");
 const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
@@ -9,7 +9,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'zokk',
     PREFIXE: process.env.PREFIX || ".",
-    GITHUB : process.env.GITHUB|| 'https://github.com/Toputech/turn-meh',
+    GITHUB : process.env.GITHUB|| 'https://github.com/Toputech/G',
     OWNER_NAME : process.env.OWNER_NAME || "topu",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "255673750170",  
     ANTI_LINK : process.env.ANTI_LINK || "yes",
@@ -25,13 +25,12 @@ module.exports = { session: process.env.SESSION_ID || 'zokk',
     GCF: process.env.GROUP_CONTROL || 'no', 
     GREET : process.env.GREET || "no",            
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || 'viewed by Alone md',   
-    OPENAI_API_KEY : process.env.OPENAI_API_KEY || "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",
     AUTOBIO: process.env.AUTOBIO || 'yes',
     AUTO_BLOCK: process.env.BLOCK_ALL || 'no',              
     GURL: process.env.GURL  || "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r",
     WEBSITE :process.env.GURL || "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r",
-    CAPTION : process.env.CAPTION || "ALONE-MD",
-    BOT : process.env.BOT_NAME || 'ALONE_MD',
+    CAPTION : process.env.CAPTION || "ALONE-QUEEN-V²",
+    BOT : process.env.BOT_NAME || 'ALONE-QUEEN-V²',
     URL : process.env.BOT_MENU_LINKS || "https://files.catbox.moe/522t4u.jpg",
     MODE: process.env.PUBLIC_MODE || "no",              
     TZ: process.env.TIMEZONE || "Africa/Dodoma", 
