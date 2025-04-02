@@ -1,7 +1,7 @@
 const { zokou } = require("../framework/zokou");
 const fs = require('fs');
 const path = require('path');
-const conf = require('../set');
+const conf = require('../config');
 
 const badWords = ["wtf", "mia", "xxx", "fuck", "sex", "huththa", "pakaya", "ponnaya", "hutto", "lol"];
 const linkPatterns = [
