@@ -1,5 +1,5 @@
 {
-  "name": "ALONE-MD",
+  "name": "ALONE-QUEEN-MD V²",
   "description": "Alone is a multidevice WhatsApp bot built to make your WhatsApp enjoyable..",
   "keywords": [
     "bot",
@@ -8,7 +8,7 @@
     "whatsapp"
   ],
   "logo": "https://files.catbox.moe/guk624.jpg",
-  "repository": "https://github.com/Toputech/turn-meh",
+  "repository": "https://github.com/Toputech/ALONE-MD-V1",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -70,7 +70,7 @@
     },
     "BOT_NAME": {
       "description": "Give a name for your bot",
-      "value": "ᗩᒪOᑎE ᗰᗪ",
+      "value": "ALONE QUEEN MD v²",
       "required": false
     },
     "BOT_MENU_LINKS": {
