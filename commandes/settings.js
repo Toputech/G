@@ -1,11 +1,11 @@
 const { zokou } = require("../framework/zokou");
-const s = require(__dirname +"../set");
+const s = require(__dirname +"../config");
 const fs = require('fs');
 const Heroku = require('heroku-client');
 
 // Function to get a description of an environment variable
 function getDescriptionFromEnv(varName) {
-  const filePath = "./set.js";
+  const filePath = "./config.js";
   const fileContent = fs.readFileSync(filePath, 'utf-8');
   const config = JSON.parse(fileContent);
   return config.env[varName]?.description || "The environment variable description was not found.";
