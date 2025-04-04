@@ -1,7 +1,7 @@
 const { zokou } = require("../framework/zokou");
 const moment = require("moment-timezone");
 const { default: axios } = require('axios');
-//const conf = require('../set');
+//const conf = require('../config');
 
 
 zokou({ nomCom: 'ping',
