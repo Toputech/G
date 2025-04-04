@@ -4,7 +4,7 @@ const { makeInMemoryStore, fetchLatestBaileysVersion, useMultiFileAuthState } = 
 const pino = require("pino");
 const fs = require("fs-extra");
 const path = require("path");
-const conf = require("./set");
+const conf = require("./config");
 const session = conf.session.replace(/ALONE-MD;;;=>/g, "");
 require("dotenv").config({ path: "./config.env" });
 
