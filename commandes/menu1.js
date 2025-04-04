@@ -3,9 +3,9 @@ const fs = require('fs-extra');
 const { zokou } = require(__dirname + "/../framework/zokou");
 const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
-const conf = require(__dirname + "/../set");
+const conf = require(__dirname + "/../config");
 const moment = require("moment-timezone");
-const s = require(__dirname + "/../set");
+const s = require(__dirname + "/../config");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
