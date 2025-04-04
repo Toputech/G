@@ -1,5 +1,5 @@
 const {zokou} = require("../framework/zokou");
-const conf = require("../set")
+const conf = require("../config")
 const {jidDecode}=require("@whiskeysockets/baileys")
 
 
