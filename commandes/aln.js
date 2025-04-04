@@ -3,7 +3,7 @@ const { igdl } = require("ruhend-scraper");
 const axios = require('axios');
 const { downloadTiktok } = require('@mrnima/tiktok-downloader');
 const { facebook } = require('@mrnima/facebook-downloader');  
-const conf = require(__dirname + "/../set");
+const conf = require(__dirname + "/../config");
 
 zokou({
   nomCom: "instagram",
