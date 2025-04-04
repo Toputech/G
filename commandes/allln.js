@@ -3,7 +3,7 @@ const { zokou } = require('../framework/zokou');
 const axios = require('axios');
 const fs = require('fs-extra');
 const { mediafireDl } = require("../framework/dl/Function");
-const conf = require(__dirname + "/../set");
+const conf = require(__dirname + "/../config");
 
 
 zokou({
