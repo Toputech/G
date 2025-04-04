@@ -1,6 +1,6 @@
 const axios = require('axios');
 const { zokou } = require("../framework/zokou");
-const conf = require(__dirname + '/../set');
+const conf = require(__dirname + '/../config');
 
 // Football Data API URL and your API key
 const apiKey = '7b6507c792f74a2b9db41cfc8fd8cf05'; // Replace with your actual API key
