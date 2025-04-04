@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 const axios = require("axios");
 const { exec } = require("child_process");
-const conf = require(__dirname + "/../set");
+const conf = require(__dirname + "/../config");
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/Toputech/ALONE-MD-V1';
   const img = 'https://files.catbox.moe/guk624.jpg';
