@@ -5,7 +5,7 @@ const { format } = require(__dirname + "/../framework/mesfonctions");
 const img = 'https://i.imgur.com/jE8eQsP.jpeg';
 const os = require("os");
 const moment = require("moment-timezone");
-const s = require(__dirname + "/../set");
+const s = require(__dirname + "/../config");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
