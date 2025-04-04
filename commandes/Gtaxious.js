@@ -2,7 +2,7 @@
 const { zokou } = require('../framework/zokou');
 const axios = require('axios');
 const wiki = require('wikipedia');
-const conf = require(__dirname + "/../set");
+const conf = require(__dirname + "/../config");
 zokou({
   nomCom: "hand",
   categorie: "fun",
