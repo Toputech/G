@@ -10,7 +10,7 @@ const os = require("os");
 
 const moment = require("moment-timezone");
 
-const s = require(__dirname + "/../set");
+const s = require(__dirname + "/../config");
 
 
 
