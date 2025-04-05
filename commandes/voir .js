@@ -4,7 +4,7 @@ const axios = require('axios');
 const { zokou } = require(__dirname + "/../framework/zokou");
 const os = require("os");
 const moment = require("moment-timezone");
-const conf = require(__dirname + "/../set");
+const conf = require(__dirname + "/../config");
 
 const VideoUrl = "https://files.catbox.moe/xptjq3.mp4"; // New audio URL
 const ThumbnailURL = "https://files.catbox.moe/533oqh.jpg"; // New image URL
