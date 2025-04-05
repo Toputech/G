@@ -1,6 +1,6 @@
 const { zokou } = require('../framework/zokou');
 const {ajouterUtilisateurAvecWarnCount , getWarnCountByJID , resetWarnCountByJID} = require('../bdd/warn')
-const s = require("../set")
+const s = require("../config")
 
 
 zokou(
